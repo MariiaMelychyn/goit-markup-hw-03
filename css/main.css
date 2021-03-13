@@ -13,17 +13,11 @@
     letter-spacing: 0.03em;
     }
    
-    .container{
-       margin-left: ;
-       margin-right: ;
-       height: ;
-    }
-
-    .page-header{
-      width: 1600px;
-      height: 80px;
-      left: 0px;
-      top: 0px; 
+    .container {
+       width: 1230px;
+       padding-left: 15px;
+       padding-right: 15px;
+       margin: 0 auto;
     }
 
     /* WebStudio */
@@ -40,6 +34,12 @@
     line-height: 1.19;
      }
 
+     /* Hero */
+     .hero{
+        text-align: center;
+        background-color: #2F303A;;
+     }
+
      /* link */
     .link{
     color: var(--text-color);
@@ -54,7 +54,12 @@
      line-height: 1.14;
      text-decoration: none;
     }
-
+    
+    .auth-nav{
+       margin: 0;
+       list-style: none;
+    }
+   
     /*Убираємо точки із ul*/
     ul{
     list-style: none;
@@ -84,20 +89,25 @@
     
     /* section-glava */
     .section-glava{
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color:#2F303A;;
     color: var(--primary-white-color);
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     text-transform: uppercase;
     }
-
+    
+    
     /* features */
 
     .features-title{
+       margin-top: 0;
+       margin-bottom: 10px;
     color: var(--title-text-color) ;
-
+    margin-top: 0;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -105,7 +115,7 @@
     }
     .features-list{
     color: var(--text-color);
-
+    margin-top: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 2;
@@ -114,7 +124,8 @@
     /* section-title */
     .section-title{
     color: var(--title-text-color);
-
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -124,22 +135,32 @@
     /* Feat-es */
     .Feat-ess-title{
        color: var(--title-text-color) ;
-       
+      margin-top: 0;
+      margin-bottom: 10px;
        font-weight: 500;
        font-size: 16px;
        line-height: 1.18;
     }
     .Feat-es-list{
        color: var(--text-color);
-
+       margin-top: 0;
+       margin-bottom: 30px;
        font-weight: 400;
        font-size: 16px;
        line-height: 1.18;
+    }
+    .photo-studio{
+       margin-top: 0;
+       margin-bottom: 30px;
     }
 
     /* button */
     .button{
     border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 73px;
+    border: 1px solid transparent;
+    text-align: center;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -153,25 +174,63 @@
        color: #F5F4FA;
     }
 
-    .button .button-primare{
-      background-color: var(--accent-color);
+    /*button-portfolio */
+    .button-portfolio{
+      border-radius: 4px;
+      padding: 6px 22px;
+      min-width: 73px;
+      margin-top: 0;
+      margin-bottom: 56px;
+      border: 1px solid transparent;
+      text-align: center;
       color: var(--primary-white-color);
+      font-weight: 700;
+      font-size: 16px;
+       line-height: 1.87;
+    }
+     
+    /* Висота і щирина секціі */
+    section{
+       padding-top: 94px;
+       padding-bottom:  94px;
     }
 
+    .section-comanda{
+      padding-top: 94px;
+      padding-bottom:  94px;
+      background-color: var(--primary-text-color) ;
+    }
     /* footer */
+    .footer{
+       background-color: #2F303A;;
+    }
     .adress{
        color: var(--primary-white-col);
-
+       margin-top: 0;
+       margin-bottom: 9px;
        font-weight: 400;
        font-size: 14px;
        line-height: 2;
     }
-       
+     .link-email{
+        margin-top: 0;
+        margin-bottom: 9px;
+     }
+     .link-tel{
+        margin-top: 0;
+        margin-bottom: 9px;
+     }
+    
     /* portfolio */
+    .portfolio-photo{
+       margin-top: 0;
+       margin-bottom: 20px;
+    }
 
     .portfolio-title{
        color: var(--title-text-color) ;
-
+       margin-top: 0;
+       margin-bottom: 4px;
        font-weight: 700;
        font-size: 18px;
        line-height: 2;
@@ -179,7 +238,8 @@
 
     .portfolio-list{
        color: var(--text-color);
-
+       margin-top: 0;
+       margin-bottom: 30px;
        font-weight: 400;
        font-size: 16px;
        line-height: 1.87;
