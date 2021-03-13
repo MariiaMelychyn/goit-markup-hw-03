@@ -14,12 +14,16 @@
     }
    
     .container {
+      display: flex;
+      align-items: center;
+      justify-content: ;
        width: 1230px;
        padding-left: 15px;
        padding-right: 15px;
        margin: 0 auto;
     }
 
+    
     /* WebStudio */
     .web{
     color: var(--accent-color);
@@ -54,10 +58,19 @@
      line-height: 1.14;
      text-decoration: none;
     }
-    
-    .auth-nav{
-       margin: 0;
-       list-style: none;
+       .auth-nav .link + .link{
+       margin-left: 50px;
+       }
+       .auth-nav {
+         display: flex;
+         margin-left: auto;
+       }
+       .auth-nav li{
+       margin-right: 50px;
+       display: block;
+       padding-top: 32px;
+       padding-bottom: 32px;
+       
     }
    
     /*Убираємо точки із ul*/
@@ -66,6 +79,20 @@
     }
 
     /* site-nav  */
+    .site-nav{
+       display: flex;
+       margin-left: 93px;
+    }
+    .site-nav li{
+      margin-right: 50px;
+      display: block;
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+     .site-nav li:last-child{
+        margin-right: 0;
+     }
+
     .site-nav-stydio {
     color: var(--accent-color);
 
@@ -188,7 +215,7 @@
       font-size: 16px;
        line-height: 1.87;
     }
-     
+    
     /* Висота і щирина секціі */
     section{
        padding-top: 94px;
