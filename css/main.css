@@ -129,7 +129,15 @@
     
     
     /* features */
+    
+    .features{
+       display: flex;
+       flex-wrap: wrap;
+    }
 
+    .features .item{
+       
+    }
     .features-title{
        margin-top: 0;
        margin-bottom: 10px;
