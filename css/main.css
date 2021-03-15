@@ -26,6 +26,10 @@
 
     /* WebStudio */
     .web{
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+    
     color: var(--accent-color);
     font-family: Raleway, cursive;
     font-size: 26px;
@@ -41,7 +45,7 @@
      /* Hero */
      .hero{
      text-align: center;
-     background-color: #2F303A;;
+     background-color: #2F303A;
      }
 
      /* link */
@@ -52,6 +56,7 @@
     color: var(--accent-color);
     }
     .link{
+    
      color: var(--text-color);
      font-weight: 500;
      font-size: 14px;
@@ -222,13 +227,21 @@
     .feat-es{
       display: flex;
     }
+
+
+
     .comanda{
       width: 270px;
-      margin-right: 25px;
+      
       text-align: center;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px;
       background: #FFFFFF;
       border-radius: 0px 0px 4px 4px;
+      margin: 0;
+      margin-right: 25px;
+      padding: 0;
+
+      
     }
     .photo-studio{
     width: 270px;
@@ -414,27 +427,43 @@
        }
 
        .studio-footer{
+         width: 1200px;
+       
+         padding-right: 15px;
+      
          color: #ffffff;
        font-family: Raleway, cursive;
        font-size: 26px;
        line-height: 1.19;
        }
-       
 
-       .container-footer{
-        
+       .web-footer{
           width: 1200px;
-          padding-left: 15px;
-          padding-right: 15px;
-          margin: 0;
-          padding: 0;
-       }
-       .footer{
+       padding-left: 15px;
+      
+       color: var(--accent-color);
+       font-family: Raleway, cursive;
+       font-size: 26px;
+       line-height: 1.19;
+     }
+       .webstudio{
          width: 1200px;
          padding-left: 15px;
          padding-right: 15px;
+       }
+
+       .container-footer{
+         width: 1200px;
+         padding-left: 15px;
+         padding-right: 15px;
+         margin: 0;
+          
+       }
+       
+       footer{
         
-          padding: 0;
+        background-color: #2F303A;
+         
        }
        
 
@@ -462,6 +491,4 @@
   border-top-style: solid;
   border-top-color: #ECECEC;
 }
-
-
 
