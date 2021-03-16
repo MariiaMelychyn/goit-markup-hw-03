@@ -22,30 +22,55 @@
        padding-right: 15px;
        margin: 0 auto;
     }
-   
+    
+    ul,
+    li{
+      margin: 0;
+      padding: 0;
+   }
+   p{
+      margin: 0;
+   }
 
+   /* page-header*/
+   .page-header{
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      
+   }
     /* WebStudio */
     .web{
       width: 1200px;
       padding-left: 15px;
-      padding-right: 15px;
-    
-    color: var(--accent-color);
-    font-family: Raleway, cursive;
-    font-size: 26px;
-    line-height: 1.19;
+      color: var(--accent-color);
+      font-family: Raleway, cursive;
+      font-size: 26px;
+      line-height: 1.19;
     }
+
     .studio{
+    width: 1200px;
+    padding-right: 15px;
     color: #212121;
     font-family: Raleway, cursive;
     font-size: 26px;
     line-height: 1.19;
-     }
+     } 
+
 
      /* Hero */
      .hero{
-     text-align: center;
+        width: 1600px;
      background-color: #2F303A;
+     padding-top: 200px;
+     padding-bottom: 210px;
+     }
+     .section-hero{
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: center;
      }
 
      /* link */
@@ -209,7 +234,7 @@
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0;
+    
     }
 
     .container-studio-comanda{
@@ -284,24 +309,20 @@
     
     /* Висота і щирина секціі */
     section{
-      padding-top: 94px;
-       padding-bottom:  94px;
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 47px;
+       padding-bottom:  47px;
     }
 
     .section-comanda{
-      padding-top: 94px;
-       padding-bottom:  94px;
+      padding-top: 47px;
+       padding-bottom:  47px;
       background-color: var(--primary-text-color) ;
     }
     /* footer */
-    .footer{
-      width: 1200px;
-      padding-left: 15px;
-      padding-bottom: 15px;
-      margin-right: auto;
-      margin-left: auto;
-       background-color: #2F303A;;
-    }
+   
     .adress{
        color: var(--primary-white-col);
        margin-top: 0;
@@ -339,10 +360,14 @@
     .portfolio-list{
        color: var(--text-color);
        margin-top: 0;
-       margin-bottom: 30px;
+      
        font-weight: 400;
        font-size: 16px;
        line-height: 1.87;
+    }
+
+    p{
+       margin: 0;
     }
     /* portfolio container */
 
@@ -361,6 +386,10 @@
           .portfolio{
            display: flex;
            flex-wrap: wrap;
+           width: 1200px;
+           padding-left: 15px;
+           padding-right: 15px;
+
            
           }
 
@@ -420,6 +449,8 @@
             display: block;
             padding-top: 6px;
             padding-bottom: 6px;
+            padding-left: 22px;
+            padding-right: 22px;
        }
 
         .button-portfolio .button-port + .button-port{
@@ -446,49 +477,53 @@
        font-size: 26px;
        line-height: 1.19;
      }
-       .webstudio{
+       
+       
+        
+      
+       
+      .footer{
+         padding-top: 60px;
+         padding-bottom: 60px;
+         background-color: #2F303A;
+       }
+       .new-footer{
          width: 1200px;
          padding-left: 15px;
          padding-right: 15px;
        }
-
        .container-footer{
          width: 1200px;
          padding-left: 15px;
          padding-right: 15px;
          margin: 0;
-          
+          }
+
+       .flex-conteiner{
+       flex-wrap: wrap;
+       padding: 24px 20px;
        }
-       
-       footer{
-        
-        background-color: #2F303A;
-         
-       }
-       
 
-
- .flex-conteiner{
-   
-   flex-wrap: wrap;
-   padding: 24px 20px;
-
-}
-
-.portfolio-element{
+ .portfolio-element{
    box-sizing: border-box;
    width: 370px;
-   height: 404px;
+   
    border: 1px solid #EEEEEE;
   
    background: #FFFFFF;
    margin-top: 0;
    margin-top: 0;
    margin-bottom: 20px;
-}
-.portfolio-frame{
+ }
+ .portfolio-frame{
    border-top-width: 1px;
   border-top-style: solid;
   border-top-color: #ECECEC;
+  width: 1200px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
+.center{
+   text-align: center;
+}
