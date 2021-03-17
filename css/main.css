@@ -13,10 +13,9 @@
     letter-spacing: 0.03em;
     }
    
-    .container {
-      display: flex;
-      align-items: center;
-      justify-content: ;
+       .container{
+        display: flex;
+       align-items: center;
        width: 1200px;
        padding-left: 15px;
        padding-right: 15px;
@@ -365,14 +364,13 @@
     padding-bottom: 15px;
     margin-right: auto;
     margin-left: auto;
-    
+   }
+
+
 
     .portfolio{
       display: flex;
       flex-wrap: wrap;
-      width: 1200px;
-      padding-left: 15px;
-      padding-right: 15px;
     }
 
     .portfolio li{
@@ -464,6 +462,8 @@ margin-bottom: 50px;
  width: 1200px;
  padding-left: 15px;
  padding-right: 15px;
+ align-items: center;
+ margin: auto;
  }
  .container-footer{
    width: 1200px;
