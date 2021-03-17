@@ -33,12 +33,7 @@
    }
 
    /* page-header*/
-   .page-header{
-      width: 1200px;
-      padding-left: 15px;
-      padding-right: 15px;
-      
-   }
+   
     /* WebStudio */
     .web{
       width: 1200px;
@@ -60,14 +55,13 @@
 
 
      /* Hero */
-     .hero{
-        width: 1600px;
+     .hero{  
      background-color: #2F303A;
      padding-top: 200px;
      padding-bottom: 210px;
      }
      .section-hero{
-      width: 1200px;
+      
       padding-left: 15px;
       padding-right: 15px;
       text-align: center;
@@ -125,7 +119,6 @@
 
     .site-nav-stydio {
     color: var(--accent-color);
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -135,7 +128,6 @@
     .site-nav-portfolio,
     .site-nav-kontactu{
     color: var(--title-text-color);
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -143,7 +135,6 @@
     }
 
 
-    
     /* section-glava */
     .section-glava{
     margin-top: 0;
@@ -234,8 +225,7 @@
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
-    
-    }
+     }
 
     .container-studio-comanda{
       width: 1200px;
@@ -243,22 +233,17 @@
       padding-right: 15px;
       margin-right: auto;
       margin-left: auto;
-     
       padding: 0;
-     
-    }
+     }
 
 
     .feat-es{
       display: flex;
     }
 
-
-
     .comanda{
       width: 270px;
-      
-      text-align: center;
+     text-align: center;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px;
       background: #FFFFFF;
       border-radius: 0px 0px 4px 4px;
@@ -308,19 +293,21 @@
     }
     
     /* Висота і щирина секціі */
-    section{
-      width: 1200px;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-top: 47px;
-       padding-bottom:  47px;
-    }
+    
 
     .section-comanda{
-      padding-top: 47px;
-       padding-bottom:  47px;
+      padding-top: 94px;
+       padding-bottom:  94px;
       background-color: var(--primary-text-color) ;
     }
+    section{
+     
+      padding-top: 94px;
+       padding-bottom:  94px;
+    }
+
+
+
     /* footer */
    
     .adress{
@@ -379,25 +366,19 @@
           padding-bottom: 15px;
           margin-right: auto;
           margin-left: auto;
-          margin: 0;
-          padding: 0;
+         
           }
       
           .portfolio{
            display: flex;
            flex-wrap: wrap;
-           width: 1200px;
-           padding-left: 15px;
-           padding-right: 15px;
-
-           
+            
           }
 
           .portfolio li{
            flex-wrap: wrap;
           }
-           
-          
+         
           .portfolio-element{
             flex-wrap: wrap;
             width: 370px;
@@ -414,6 +395,8 @@
        /*button-portfolio  */
 
        .button-portfolio{
+          margin: 0;
+          padding: 0;
          border-radius: 4px;
          padding: 6px 22px;
          min-width: 73px;
@@ -459,10 +442,8 @@
 
        .studio-footer{
          width: 1200px;
-       
-         padding-right: 15px;
-      
-         color: #ffffff;
+        padding-right: 15px;
+        color: #ffffff;
        font-family: Raleway, cursive;
        font-size: 26px;
        line-height: 1.19;
@@ -471,16 +452,11 @@
        .web-footer{
           width: 1200px;
        padding-left: 15px;
-      
-       color: var(--accent-color);
+      color: var(--accent-color);
        font-family: Raleway, cursive;
        font-size: 26px;
        line-height: 1.19;
      }
-       
-       
-        
-      
        
       .footer{
          padding-top: 60px;
@@ -507,23 +483,16 @@
  .portfolio-element{
    box-sizing: border-box;
    width: 370px;
-   
-   border: 1px solid #EEEEEE;
-  
-   background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  background: #FFFFFF;
    margin-top: 0;
    margin-top: 0;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
  }
- .portfolio-frame{
-   border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #ECECEC;
-  width: 1200px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
 
-.center{
-   text-align: center;
+
+header{
+   border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color:#ECECEC;
 }
