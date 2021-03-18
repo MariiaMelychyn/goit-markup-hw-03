@@ -105,12 +105,13 @@
     .site-nav{
        display: flex;
        margin-left: 93px;
+       padding-top: 32px;
+      padding-bottom: 32px;
     }
     .site-nav li{
       margin-right: 50px;
       display: block;
-      padding-top: 32px;
-      padding-bottom: 32px;
+     
     }
      .site-nav li:last-child{
         margin-right: 0;
@@ -122,6 +123,7 @@
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    display:inline-block;
     }
 
     .site-nav-portfolio,
@@ -131,6 +133,7 @@
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    display:inline-block;
     }
 
 
@@ -179,7 +182,7 @@
     margin-top: 0;
     margin-bottom: 50px;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 36px;
     line-height: 1.16;
     text-align: center;
     }
@@ -193,7 +196,9 @@
        padding: 0;
        margin: 0;
     }
-
+    .picture-work li:nth-child(3n){
+       margin-right: 0;
+    }
 
     /* Feat-es */
     .Feat-ess-title{
@@ -232,13 +237,17 @@
       margin-right: auto;
       margin-left: auto;
       padding: 0;
+      
      }
 
 
     .feat-es{
       display: flex;
     }
-
+    
+    .feat-es li:nth-child(4n){
+       margin-right: 0;
+    }
     .comanda{
       width: 270px;
      text-align: center;
@@ -294,14 +303,14 @@
     
 
     .section-comanda{
-      padding-top: 94px;
-       padding-bottom:  94px;
+      padding-top: 47px;
+       padding-bottom:  47px;
       background-color: var(--primary-text-color) ;
     }
     section{
      
-      padding-top: 94px;
-       padding-bottom:  94px;
+      padding-top: 47px;
+       padding-bottom:  47px;
     }
 
 
@@ -395,7 +404,7 @@
 .button-portfolio{
   
  border-radius: 4px;
- padding: 6px 22px;
+ 
  min-width: 73px;
  border: 1px solid transparent;
  text-align: center;
@@ -430,6 +439,7 @@ margin-bottom: 50px;
  padding-bottom: 6px;
  padding-left: 22px;
  padding-right: 22px;
+ border: 1px solid transparent;
 }
 .button-portfolio .button-port + .button-port{
     margin-left: 8px;
@@ -496,4 +506,7 @@ margin-bottom: 50px;
 
 .center{
    text-align: center;
+}
+.container-webstudio{
+   padding-bottom: 20px;
 }
