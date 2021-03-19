@@ -1,4 +1,4 @@
- /* Color*/
+
  :root{
     --primary-text-color:#F5F4FA;
     --title-text-color: #212121;
@@ -30,7 +30,8 @@
    p{
       margin: 0;
    }
-
+    
+ 
    
    
     /* WebStudio */
